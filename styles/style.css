@@ -1,7 +1,7 @@
 .header {
     display: flex;
     flex-direction: row;
-    padding: 92px 24px;
+    padding: 92px 24px 95px;
 }
 
 .header__logo {
@@ -44,4 +44,105 @@
 
 .menu__accent {
     text-underline-position: under;
+}
+
+.page {
+    position: relative;
+    display: grid;
+    border: 1px solid black;
+    height: 757px;
+    margin: 0px 4px 0px 4px;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 49%;
+    z-index: 0;
+}
+
+.page::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgb(0 0 0/0.6)
+
+}
+
+.accent {
+    display: block;
+    color: white;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: 'Raleway', 'Arial';
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+.line1 {
+    display: block;
+    margin-top: 164px;
+    margin-left: 50px;
+}
+
+.letter__line1 {
+    margin-left: 29px;
+}
+
+.line2 {
+    display: block;
+    margin-left: 335px;
+    margin-top: 9px;
+}
+
+.letter_line2 {
+    margin-left: 30px;
+}
+
+.line3 {
+    display: block;
+    margin-left: 633px;
+    margin-top: 2px;
+}
+
+.letter_line3 {
+    margin-left: 31px;
+}
+
+.cover__description {
+    color: white;
+    z-index: 2;
+    text-transform: uppercase;
+    font-family: 'Raleway', 'Arial', serif;
+    font-size: 14.1px;
+    flex-wrap: nowrap;
+    display: inline-block;
+}
+
+.cover__description-text {
+    font-weight: 100;
+    margin-top: 80px;
+    margin-left: 78px;
+    word-spacing: 24px;
+}
+
+.cover__description-text__right {
+    margin-left: -6px;}
+
+.button__click-item {
+    margin-left: 42px;
+    
+}
+
+.button__click {
+    width: 256px;
+    height: 51px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: 'Raleway', 'Arial', serif;
+   
 }
