@@ -146,3 +146,233 @@
     font-family: 'Raleway', 'Arial', serif;
    
 }
+
+.lots__accent {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 178px;
+    margin-left: 60px;
+}
+
+.lots__list {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+.lots__list-item {
+    width: 334px;
+    height: 563px;
+    color: white;
+}
+
+.lot-1 {
+    position: relative;
+    display: grid;
+    z-index: 0;
+    width: 334px;
+    height: 563px;
+    background-image: url(../images/card-lot-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.lot-1::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgb(0 0 0/0.4)
+}
+
+.lot-link {
+    font-size: 22px;
+    z-index: 2;
+    margin-left: 40px;
+    margin-top: 51px;
+    text-transform: uppercase;
+}
+
+.lot-text {
+    width: 254px;
+    font-size: 20px;
+    z-index: 2;
+    margin-left: 40px;
+    margin-top: 195px;
+    font-weight: 100;
+}
+
+.lot-2 {
+    position: relative;
+    display: grid;
+    z-index: 0;
+    width: 334px;
+    height: 563px;
+    background-image: url(../images/card-lot-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.lot-2::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgb(0 0 0/0.4)
+}
+
+.lot-link-2 {
+    font-size: 22px;
+    z-index: 2;
+    margin-left: 40px;
+    margin-top: 51px;
+    text-transform: uppercase;
+    width: 254px;
+}
+
+.lot-text-2 {
+    width: 254px;
+    font-size: 20px;
+    z-index: 2;
+    margin-left: 40px;
+    margin-bottom: 48px;
+    font-weight: 100;
+}
+
+
+.lot-3 {
+    position: relative;
+    display: grid;
+    z-index: 0;
+    width: 334px;
+    height: 563px;
+    background-image: url(../images/card-lot-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.lot-3::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgb(0 0 0/0.4)
+}
+
+.lot-link-3 {
+    font-size: 22px;
+    z-index: 2;
+    margin-left: 40px;
+    margin-top: 51px;
+    text-transform: uppercase;
+    width: 254px;
+    
+}
+
+.lot-text-3 {
+    width: 254px;
+    font-size: 20px;
+    z-index: 2;
+    margin-left: 40px;
+    margin-top: 49px;
+    font-weight: 100;
+}
+
+.lots__more {
+    text-underline-position: under;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.about {
+    display: grid;
+    margin: 180px 71px 175px 64px;
+    grid-template-columns: 312px 692px;
+    grid-template-rows: 250px 320px
+    
+}
+
+
+.logo__background {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    margin-top: 4px;
+    margin-left: 1px;
+}
+
+.logo-white {
+    width: 148px;
+    height: 114px;
+    margin-top: 65px;
+    margin-left: 47px;
+}
+
+.about__accent {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    margin-top: 105px;
+    margin-left: 2px;
+}
+
+.text-about {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1px;
+    margin-left: 1px;
+    gap: 28px;
+}
+
+.footer{
+    margin-left: 46px;
+}
+
+.footer_grid {
+    display: grid;
+    width: 1000px;
+    grid-template-columns: 240.52px 519.48px 240px;
+}
+
+.address-footer {
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+.footer__menu-list {
+    list-style: none;
+    justify-self: center;
+    
+    text-align: center;
+    font-size: 18px;
+}
+
+.logos-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.logos-list-item {
+    width: 48px;
+    height: 48px;
+}
