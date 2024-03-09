@@ -341,7 +341,9 @@
 }
 
 .footer {
+
     margin-left: 46px;
+    margin-bottom: 0;
 }
 
 .footer_grid {
@@ -376,4 +378,8 @@
 .logos-list-item {
     width: 48px;
     height: 48px;
+}
+
+.footer__footer {
+    height: 84.42px;
 }
