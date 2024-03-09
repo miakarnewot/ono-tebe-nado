@@ -8,7 +8,7 @@
     width: 148px;
     height: 105px;
     justify-content: center;
-    margin-left: 19px;
+    margin-left: 9px;
     box-sizing: content-box;
 }
 
@@ -27,7 +27,7 @@
 
 .address {
     width: 240;
-    padding-left: 187px;
+    padding-left: 195px;
     padding-top: 5px;
     font-size: 18px;
     letter-spacing: 0.01em;
