@@ -84,7 +84,6 @@
     background-color: rgb(0 0 0/0.6);
 }
 
-
 .accent {
     display: block;
     color: white;
@@ -193,24 +192,28 @@
     overflow: hidden;
 }
 
+
 .lot-link-film {
     font-size: 22px;
     z-index: 2;
     padding-left: 40px;
     padding-top: 52px;
+    text-decoration: underline;
     text-transform: uppercase;
     text-underline-offset: 2px;
 }
 
 .lot-text-film {
+    text-decoration: none;
     width: 254px;
     font-size: 20px;
     z-index: 2;
     margin-left: 39px;
-    margin-top: 195px;
+    margin-top: 242px;
     font-weight: 100;
     line-height: 24px;
     letter-spacing: 0.01px;
+    text-decoration: none;
 }
 
 .card_link {
@@ -220,6 +223,7 @@
     right: 0;
     bottom: 0;
     z-index: 3;
+    text-decoration: none;
 }
 
 .card_type_book {
@@ -256,6 +260,7 @@
     padding-bottom: 48px;
     font-weight: 100;
     line-height: 24px;
+    text-decoration: none;
 }
 
 
@@ -278,6 +283,7 @@
     margin-left: 40px;
     margin-top: 53px;
     text-transform: uppercase;
+    text-decoration: underline;
     width: 254px;
     line-height: 26px;
 }
@@ -287,10 +293,12 @@
     font-size: 20px;
     z-index: 2;
     margin-left: 40px;
-    margin-top: 48px;
+    margin-top: 94px;
     font-weight: 100;
     line-height: 24px;
+    text-decoration: none;
 }
+
 
 .card_type_film.overlay::after,
 .card_type_book.overlay::after,
@@ -319,7 +327,7 @@
     flex-wrap: wrap;
 }
 
-.logo_white_about{
+.logo_white_about {
     padding-left: 64px;
     margin-bottom: 1px;
 
@@ -353,7 +361,7 @@
     
 }
 
-.text-about-container{
+.text-about-container {
     display: flex;
     padding-top: 7px;
     padding-left: 378px;
